@@ -13,7 +13,6 @@ var autoclickCode = function() {
     }
     var claimButton = document.getElementsByClassName("claimable-bonus__icon")[0];
     if (claimButton != null) {
-        // claimButton.click();
-        console.log("Will click!");
+        claimButton.click();
     }
 }
