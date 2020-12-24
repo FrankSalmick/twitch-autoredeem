@@ -1,9 +1,9 @@
 {
-    "description": "Automatically redeem the bonus channel points (the little black box that pops up occasionally) when they pop up in twitch chat",
+    "description": "Automatically redeem the bonus channel points when the option pops up in twitch chat",
     "manifest_version": 2,
     "name": "Twitch Channel Points Auto Redeem",
 	"short_name": "Channel Points Redeemer",
-    "version": "20.4.8",
+    "version": "20.12.23",
     "content_scripts": [
         {
             "matches": [ "https://*.twitch.tv/*" ],
